@@ -11,16 +11,17 @@ LANGUAGES :
 French
 English (being translated)
 
-Versions:
-1. 1 single page (menu)
-1.1 Display bug fix
-2. New “Latest Links” page
-3. New “Search for links” page
-3.1 Added “BeatStar Discord” and “DJCreeper Discord” buttons
-3.2 Bug fix in “Search for links”
-4. Added "Blog" to the main menu.
-4.1 Bug fix in the blog.
-4.2 Adding emoji to the blog. (Current version)
+| Version | Description                                              |
+|---------|----------------------------------------------------------|
+| 1.0     | 1 single page (menu)                                     |
+| 1.1     | Display bug fix                                          |
+| 2.0     | New “Latest Links” page                                  |
+| 3.0     | New “Search for links” page                              |
+| 3.1     | Added “BeatStar Discord” and “DJCreeper Discord” buttons |
+| 3.2     | Bug fix in “Search for links”                            |
+| 4.0     | Added "Blog" to the main menu.                           |
+| 4.1     | Bug fix in the blog.                                     |
+| 4.2     | Adding emoji to the blog. (Current version)              |
 
 Files:
 BeatStar.html: The menu, with BeatStar news on Twitter, the blog and the redirection buttons.
@@ -33,7 +34,7 @@ Discord Server: https://discord.gg/82bNfbsCXy
 Email: djcreeper.musique@gmail.com
 YouTube: https://www.youtube.com/@djcreeperytb
 
-____________________________________________________________________________________________________________
+_________________________________________________________________________________________________________
 
 BeatStar (fr) :
 
@@ -46,16 +47,17 @@ Langues :
 Français
 Anglais (en cours de traduction)
 
-Versions :
-1. 1 seule pages (menu)
-1.1 Correction de bug d'affichage
-2. Nouvelle page "Derniers liens"
-3. Nouvelle page "Rechercher un liens"
-3.1 Ajout des boutons "BeatStar Discord" et "DJCreeper Discord"
-3.2 Correction de bug dans "Rechercher un liens"
-4. Ajout de "Blog" dans le menu principal.
-4.1 Correction de bug dans le blog.
-4.2 Ajout d'émoji dans le blog. (Version actuelle)
+| Version | Description                                                 |
+|---------|-------------------------------------------------------------|
+| 1.0     | 1 seule pages (menu)                                        |
+| 1.1     | Correction de bug d'affichage                               |
+| 2.0     | Nouvelle page "Derniers liens"                              |
+| 3.0     | Nouvelle page "Rechercher un liens"                         |
+| 3.1     | Ajout des boutons "BeatStar Discord" et "DJCreeper Discord" |
+| 3.2     | Correction de bug dans "Rechercher un liens"                |
+| 4.0     | Ajout de "Blog" dans le menu principal.                     |
+| 4.1     | Correction de bug dans le blog.                             |
+| 4.2     | Ajout d'émoji dans le blog. (Version actuelle)              |
 
 Fichiers :
 BeatStar.html : Le menu, avec les nouveauté BeatStar sur Twitter, le blog et les boutons de redirections.
