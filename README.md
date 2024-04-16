@@ -22,6 +22,7 @@ English (being translated)
 | 4.0     | Added "Blog" to the main menu.                           |
 | 4.1     | Bug fix in the blog.                                     |
 | 4.2     | Adding emoji to the blog. (Current version)              |
+| 4.3     | Images removed (BeatStar logo and DJCreeper logo)        |
 
 Files:
 BeatStar.html: The menu, with BeatStar news on Twitter, the blog and the redirection buttons.
@@ -58,6 +59,7 @@ Anglais (en cours de traduction)
 | 4.0     | Ajout de "Blog" dans le menu principal.                     |
 | 4.1     | Correction de bug dans le blog.                             |
 | 4.2     | Ajout d'émoji dans le blog. (Version actuelle)              |
+| 4.3     | Images enlevées (logo BeatStar et logo DJCreeper)           |
 
 Fichiers :
 BeatStar.html : Le menu, avec les nouveauté BeatStar sur Twitter, le blog et les boutons de redirections.
