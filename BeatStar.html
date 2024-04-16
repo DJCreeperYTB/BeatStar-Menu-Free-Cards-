@@ -58,6 +58,12 @@
         .image-container img {
             max-width: 100%;
         }
+        .image-row {
+            display: flex;
+        }
+        .image-container {
+            margin-right: 20px;
+        }
     </style>
 </head>
 <body>
@@ -90,13 +96,15 @@
         <!-- Ajoutez d'autres articles de blog ici -->
     </div>
     
-    <div class="image-container">
-        <img src="./Images/BeatStar logo.jpg" alt="BeatStar Logo">
-    </div>
-
-    <div class="image-container">
-        <img src="./Images/DJCreeper Logo.jpg" alt="DJCreeper Logo">
-    </div>
+    <div class="image-row">
+        <div class="image-container">
+            <img src="./Images/BeatStar logo.jpg" alt="BeatStar Logo">
+        </div>
+    
+        <div class="image-container">
+            <img src="./Images/DJCreeper Logo.jpg" alt="DJCreeper Logo">
+        </div>
+    </div>    
 
     <script>
         const lastLinksButton = document.getElementById('lastLinksButton');
