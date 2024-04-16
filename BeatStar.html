@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeatStar News</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000; 
+        }
+        #header-banner {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        #news, #blog {
+            width: 80%;
+            margin: 0 auto;
+            border: 2px solid #333;
+            padding: 20px;
+            background-color: #fff; 
+            border-radius: 10px; 
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+        }
+        #lastLinksButton, #searchLinksButton {
+            float: right;
+            font-size: 16px; 
+            padding: 10px 20px; 
+            border-radius: 5px; 
+            background-color: #4CAF50; 
+            color: white; 
+            border: none; 
+            cursor: pointer;
+            margin-left: 10px; 
+            transition: background-color 0.3s; 
+        }
+        #BeatStarDiscordButton, #DJCreeperDiscordButton {
+            float: right;
+            font-size: 16px; 
+            padding: 10px 20px; 
+            border-radius: 5px; 
+            background-color: #5165f6; 
+            color: white; 
+            border: none; 
+            cursor: pointer;
+            margin-left: 10px; 
+            transition: background-color 0.3s; 
+        }
+        #lastLinksButton:hover, #searchLinksButton:hover {
+            background-color: #45a049; 
+        }
+        .image-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .image-container img {
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="C:\Users\natha\OneDrive\Bureau\BeatStar\Images\Season 36 BeatStar.jpeg" alt="BeatStar Season 36 Banner">
+    </div>
+
+    <div id="news">
+        <button id="DJCreeperDiscordButton" onclick="window.open('https://discord.gg/aDMVwFXx5Y')">DJCreeper Discord</button>
+        <button id="BeatStarDiscordButton" onclick="window.open('https://discord.com/invite/beatstar')">Beatstar Discord</button>
+        <button id="lastLinksButton">Derniers liens</button>
+        <button id="searchLinksButton">Rechercher un lien</button>
+        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">As Earth Day approaches, we want to shout out the efforts all around the world to remove and reduce plastic waste.<br>We invite all Beatstar players to help: visit the link in our in-game newsletter and get a new avatar for your efforts!<br><br>➡️ <a href="https://t.co/nEO7WXnOfQ">https://t.co/nEO7WXnOfQ</a> <a href="https://t.co/jV2xxkvsFi">pic.twitter.com/jV2xxkvsFi</a></p>&mdash; Beatstar (@playbeatstar) <a href="https://twitter.com/playbeatstar/status/1779932810179985877?ref_src=twsrc%5Etfw">April 15, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+
+    <div id="blog">
+        <h2>📢 Blog 15/04/24</h2>
+        <div class="blog-post">
+            <h3>Jour de La Terre 🌍</h3>
+            <p>Le <b>22 avril</b> est le <b>Jour de La Terre</b> (Earth Day). Cette journée a pour but de sensibiliser au <b>changement climatique</b> et de soutenir la <b>protection de l'environnement</b>. En cette honneur, BeatStar vous offre <b>gratuitement</b> un <b>nouveau avatar</b>.<br><b>Comment faire ?</b></br></p>
+            <ol>
+                <li>Ouvrez <b>BeatStar</b>.</li>
+                <li>Allez dans l'onglet <b>Coulisse</b> (tout en bas à droite), puis dans <b>Actualités</b>.</li>
+                <li>Cliquez sur l'actualité de la <b>Journée de la Terre</b>.</li>
+                <li>Cliquez sur <b>Obtenir la récompense</b>. Vous serez renvoyé vers le site <a href="https://www.earthday.org/plastic-pollution-calculator-2/" target="_blank"><b>https://www.earthday.org/plastic-pollution-calculator-2/</b></a> pour remplir un <b>questionnaire</b>. <b>Il n'est pas obligatoire</b>, mais si vous voulez participer au mouvement <b>Earth Day</b>, vous pouvez le remplir. Si vous quittez l'application, <b>BeatStar</b> croit que vous avez rempli le questionnaire et vous donnera <b>automatiquement la récompense</b>.</li>
+                <li>Revenez sur le jeu, puis dans le <b>menu principal</b>. Vous obtiendrez votre <b>coffret d'avatar</b> avec dedans... <b>Un avatar d'une plante ! 🌱</b></li>
+            </ol>
+            <img src="C:\Users\natha\OneDrive\Bureau\BeatStar\Images\Plante Set Premium BeatStar.png" alt="Description de l'image" style="width: 300px; height: auto;">
+        </div>
+        <!-- Ajoutez d'autres articles de blog ici -->
+    </div>
+    
+    <div class="image-container">
+        <img src="C:\Users\natha\OneDrive\Bureau\BeatStar\Images\BeatStar logo.jpg" alt="BeatStar Logo">
+    </div>
+
+    <div class="image-container">
+        <img src="C:\Users\natha\OneDrive\Bureau\BeatStar\Images\DJCreeper Logo.jpg" alt="DJCreeper Logo">
+    </div>
+
+    <script>
+        const lastLinksButton = document.getElementById('lastLinksButton');
+        const searchLinksButton = document.getElementById('searchLinksButton');
+
+        lastLinksButton.addEventListener('click', () => {
+            window.open('last_links.html', '_blank');
+        });
+
+        searchLinksButton.addEventListener('click', () => {
+            window.open('search_links.html', '_blank');
+        });
+    </script>
+</body>
+</html>

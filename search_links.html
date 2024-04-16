@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rechercher un lien</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000; 
+            color: #fff;
+            margin: 0; 
+            padding: 0; 
+        }
+        #header-banner {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: #14b5ff; 
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        a:hover {
+            color: #f0f; 
+        }
+    </style>
+</head>
+<body>
+    <img id="header-banner" src="C:\Users\natha\OneDrive\Bureau\BeatStar\Images\Season 36 BeatStar.jpeg" alt="BeatStar Season 36 Banner">
+
+    <input type="text" placeholder="Rechercher un lien..." id="searchInput">
+    <ul id="searchResults"></ul>
+
+    <script>
+        const searchInput = document.getElementById('searchInput');
+        const searchResults = document.getElementById('searchResults');
+
+        const links = [
+            { name: 'Pop (4 cartes)', url: 'https://t.co/fn8hCj60WI'},
+            { name: 'Rock (4 cartes)', url: 'https://t.co/jSsVTM5eI6'},
+            { name: 'Hard (2 cartes)', url: 'https://t.co/1IL5BynGfX'},
+            { name: 'Unlimited Play (30m)', url: 'https://t.co/YuW2IegIW8'},
+            { name: 'Dance (4 cartes)', url: 'https://t.co/8sMLlHeInT'},
+            { name: 'Rainbow (2 cartes)', url: 'https://t.co/5qIQpyCfyw'},
+            { name: '30m Unlimited Play', url: 'https://t.co/tcN5g97CMZ'},
+            { name: 'Alternative (4 cartes)', url: 'https://t.co/ZXxv1on8Ti'},
+            { name: 'Pop (4 cartes)', url: 'https://t.co/Hrq0Zw0gBG'},
+            { name: 'Rock (4 cartes)', url: 'https://t.co/SXF1RTRQwP'},
+            { name: '30m Unlimited Play', url: 'https://t.co/rQ6jQKJ0oG'}
+        ];
+
+        function displaySearchResults(query) {
+            searchResults.innerHTML = ''; 
+
+            const filteredLinks = links.filter(link => link.name.toLowerCase().includes(query.toLowerCase()));
+
+            if (filteredLinks.length === 0) {
+                searchResults.innerHTML = '<p>Aucun résultat trouvé.</p>';
+            } else {
+                filteredLinks.forEach(link => {
+                    const listItem = document.createElement('li');
+                    listItem.innerHTML = `<a href="${link.url}" target="_blank">${link.name}</a>`;
+                    searchResults.appendChild(listItem);
+                });
+            }
+        }
+
+        searchInput.addEventListener('input', () => {
+            const query = searchInput.value;
+            displaySearchResults(query);
+        });
+    </script>
+</body>
+</html>
