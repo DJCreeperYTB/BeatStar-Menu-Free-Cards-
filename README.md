@@ -1,6 +1,6 @@
 # BeatStar Home (Free Cards)
 
-BeatStar (en):
+BeatStar Free Cards :
 
 Created by DJCreeper
 Unofficial software by BeatStar
@@ -11,18 +11,28 @@ LANGUAGES :
 French
 English (being translated)
 
-| Version | Description                                              |
-|---------|----------------------------------------------------------|
-| 1.0     | 1 single page (menu)                                     |
-| 1.1     | Display bug fix                                          |
-| 2.0     | New “Latest Links” page                                  |
-| 3.0     | New “Search for links” page                              |
-| 3.1     | Added “BeatStar Discord” and “DJCreeper Discord” buttons |
-| 3.2     | Bug fix in “Search for links”                            |
-| 4.0     | Added "Blog" to the main menu.                           |
-| 4.1     | Bug fix in the blog.                                     |
-| 4.2     | Adding emoji to the blog. (Current version)              |
-| 4.3     | Images removed (BeatStar logo and DJCreeper logo)        |
+| Version | Description                                               |
+|---------|-----------------------------------------------------------|
+| 1.0     | 1 single page (menu)                                      |
+| 1.1     | Display bug fix                                           |
+| 2.0     | New “Latest Links” page                                   |
+| 3.0     | New “Search for links” page                               |
+| 3.1     | Added “BeatStar Discord” and “DJCreeper Discord” buttons  |
+| 3.2     | Bug fix in “Search for links”                             |
+| 4.0     | Added "Blog" to the main menu.                            |
+| 4.1     | Bug fix in the blog.                                      |
+| 4.2     | Adding emoji to the blog. (Current version)               |
+| 4.3     | Images removed (BeatStar logo and DJCreeper logo)         |
+| 5.0     | "Search for links" was a useless feature, so I removed it |
+| 5.1     | “Latest Links” becomes “Free Cards”                       |
+| 5.2     | The French version is no longer available. I created it   |
+|         | because it is my native language and it was easier for me |
+|         | but managing the translation of two languages ​​is way too  |
+|         | complex for me. So "BeatStar_EN" and "BeatStar_FR" are    |
+|         | combined into one website in English: "BeatStar".         |
+| 5.3     | The last 30 links have been removed, because their rewards|
+|         | are no longer valid.                                      |
+| 5.4     | 5 new links have been added.
 
 Files:
 BeatStar.html: The menu, with BeatStar news on Twitter, the blog and the redirection buttons.
@@ -34,40 +44,3 @@ Discord: djcreeperytb
 Discord Server: https://discord.gg/82bNfbsCXy
 Email: djcreeper.musique@gmail.com
 YouTube: https://www.youtube.com/@djcreeperytb
-
-_________________________________________________________________________________________________________
-
-BeatStar (fr) :
-
-Crée par DJCreeper
-Logiciel non officiel par BeatStar
-Crée le 14/04/24 en France
-Toute modification du logiciel n'est pas autorisé et risque des senctions par votre pays légal. Toutes demande se fait au près de DJCreeper (voir plus bas).
-
-Langues :
-Français
-Anglais (en cours de traduction)
-
-| Version | Description                                                 |
-|---------|-------------------------------------------------------------|
-| 1.0     | 1 seule pages (menu)                                        |
-| 1.1     | Correction de bug d'affichage                               |
-| 2.0     | Nouvelle page "Derniers liens"                              |
-| 3.0     | Nouvelle page "Rechercher un liens"                         |
-| 3.1     | Ajout des boutons "BeatStar Discord" et "DJCreeper Discord" |
-| 3.2     | Correction de bug dans "Rechercher un liens"                |
-| 4.0     | Ajout de "Blog" dans le menu principal.                     |
-| 4.1     | Correction de bug dans le blog.                             |
-| 4.2     | Ajout d'émoji dans le blog. (Version actuelle)              |
-| 4.3     | Images enlevées (logo BeatStar et logo DJCreeper)           |
-
-Fichiers :
-BeatStar.html : Le menu, avec les nouveauté BeatStar sur Twitter, le blog et les boutons de redirections.
-last_links : Répertoires des derniers liens de récompense BeatStar gratuits
-search_links : Rechercher un liens d'une récompense BeatStar gratuits
-
-Contactes :
-Discord : djcreeperytb
-Serveur Discord : https://discord.gg/82bNfbsCXy
-Mail : djcreeper.musique@gmail.com
-YouTube : https://www.youtube.com/@djcreeperytb
