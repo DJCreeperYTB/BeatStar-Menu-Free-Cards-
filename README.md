@@ -37,7 +37,6 @@ English (being translated)
 Files:
 BeatStar.html: The menu, with BeatStar news on Twitter, the blog and the redirection buttons.
 last_links: Directories of the latest free BeatStar reward links
-search_links: Search for free BeatStar reward links
 
 Contacts:
 Discord: djcreeperytb
